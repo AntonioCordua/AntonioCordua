@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+
+* {
+	box-sizing: border-box;	
+
+}
+body {
+	margin: 0;
+	font-family:'Raleway', sans-sarif;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.container{
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+/*typography
+==================== */
+
+h1{
+	font-weight: 300;
+	font-size: 2.5rem;
+	margin-top: 0;
+	
+}
+
+.motto{
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 1.5em;			
+}
+.motto span{
+	font-weight: 300;
+	display: block;
+	font-size: .6em;
+}
+
+@media (min-width: 60rem) {
+	.motto {
+		font-size: 2.5rem;	
+	}
+}
+
+/*buttons 
+===================*/
+
+.button{
+	display: inline-block;
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: 	 #C2ae95;	
+	padding: .5em 1.5em;
+	transition: transform .25s;
+}
+
+@media(min-width: 60rem;){
+	.button{
+		font-size: 1.5rem;	
+	}
+}	
+
+.button-accent{
+	color:  #C2ae95;
+}
+.button-accent:hover,
+.button-accent:focus{
+		color: #a5a283;
+		transform: scale(1.2);	
+}
+
+.button2{
+	display: inline-block;
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-style: solid;
+	color: #482E1D;	
+	padding: .5em 1.5em;
+	transition: transform .25s;
+}
+
+.button-accent2{
+	color:  #482E1D;
+}
+.button-accent2:hover,
+.button-accent2:focus{
+		color: #482E1D;
+		transform: scale(1.2);	
+}
+
+@media(min-width: 60rem;){
+	.button2{
+		font-size: 1.5rem;	
+	}
+}	
+
+.button-small{
+	font-size: .8rem;
+	font-weight: 700;
+	border-style: solid;	
+	color:  #482E1D;
+
+}		
+
+/*header
+==================== */
+
+header{
+	position: absolute;	
+	margin: 1em;	
+	left: 0;
+	right: 0; 
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 1em;
+}	
+
+nav a{
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .8rem;
+	padding: .75em;	
+	color: #C2ae95;
+	transition: transform .25s;	
+}
+
+nav a:hover,
+nav a:focus{
+	color: #824e4e;
+	transform: scale(1.2);
+}
+
+@media (min-width: 60rem) {
+	.logo {
+		float: left;
+	}
+	nav{
+		float: right;
+	}
+
+}
+
+/* home-hero
+=======================*/
+.home-hero {
+	background-image: url(logo.jpeg);
+	background-size: cover;	
+	background-position: center;
+	background-attachment: fixed;			
+	padding: 10em 0;
+	margin-top:auto;	
+	color: 	#E8D9C2;		
+}
+
+@media (min-width: 60rem) {	
+	.home-hero {
+		height: 100vh;
+		padding-top: 40vh;
+	}
+
+}
+
+/* home-about
+=======================*/	
+
+.home-about-textbox{
+	background-color: #E8D9C2;
+	padding: 4em;
+	width: 100vw;	
+	outline: 2px solid #482E1D;
+	outline-offset: -2.5em;	
+	color: #482E1D;	
+	position: relative;		
+
+}
+.home-about-textbox h1{
+	color: #482E1D;	
+	position: absolute;
+	font-weight: bold;
+	left: 50%;
+	transform: translate(-50%);
+	top: .26em;	
+	background: #E8D9C2;
+}
+	
+@media (min-width: 25rem;){
+
+	h1{
+		font-size: 2rem;			
+
+	}
+}	
+
+	.home-about-textbox h1{
+		top: .3em;	
+		padding:0 .6em;
+
+	}
+}	
+@media (min-width: 60rem;){
+
+	h1{
+		font-size: 2rem;			
+
+	}
+}	
+
+/* Portfolio
+=======================*/
+
+.portfolio{
+	margin: 3em 0;
+}
+
+figure{
+}
+
+
+
+
+
